@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "--- \ntitle: \"MATH-505A Screening Solutions\"\nauthor: \"Saket Choudhary\"\ndate: \"`r Sys.Date()`\"\nsite: \"bookdown::bookdown_site\"\noutput:\n  bookdown::gitbook: default\n  bookdown::pdf_book:\n    keep_tex: yes\ndocumentclass: book\nlink-citations: yes\nedit: https://github.com/saketkc/usc-math-505A-screening-solutions/edit/master/%s\n---",
+    "created" : 1485847172014.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3081922549",
+    "id" : "365A7B7A",
+    "lastKnownWriteTime" : 1485847678,
+    "last_content_update" : 1485847678152,
+    "path" : "~/github/usc-math-505A-screening-solutions/_bookdown.yml",
+    "project_path" : "_bookdown.yml",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "yaml"
+}

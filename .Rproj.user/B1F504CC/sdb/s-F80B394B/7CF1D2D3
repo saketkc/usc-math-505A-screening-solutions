@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\nsite: \"bookdown::bookdown_site\"\noutput:\n  bookdown::gitbook:\n    lib_dir: \"book_assets\"\n  bookdown::pdf_book:\n    keep_tex: yes\n---",
+    "created" : 1485845315319.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2828835013",
+    "id" : "7CF1D2D3",
+    "lastKnownWriteTime" : 1485845326,
+    "last_content_update" : 1485845326026,
+    "path" : "~/github/usc-math-505A-screening-solutions/site",
+    "project_path" : "site",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

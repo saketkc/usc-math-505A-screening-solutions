@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# 2013-Spring\n\n\n## Paper\n[http://www-bcf.usc.edu/~mathgp/quals/20061/505aspring06.pdf](http://www-bcf.usc.edu/~mathgp/quals/20131/20131_505a.pdf)\n\n## Problem 1\n\nGiven: $E[X|Y]=X\\ and \\ E[Y|X]=X$\n\nTo Show:\n\n### Part (a): $P(X=Y)=1$\n\n$$\nE[Y]=E[E[Y|X]]=E[X]=\\mu_x\n$$\n\nThus, $\\mu_y=\\mu_x$\n\nAlso,\n$$\n\\begin{align}\nCov(X,Y) &=E[XY]-E[X]E[Y]\\\\\n&= E[E[XY|X]]-\\mu_x^2\\\\\n&= E[XE[Y|X]]-\\mu_x^2\\\\\n&= E[X^2]-\\mu_x^2\\\\\n&= \\sigma_x^2\n\\end{align}\n$$\n\nRepeating the above with $E[XY]= E[E[XY|Y]]$ would give \n$Cov(X,Y)=\\sigma_y^2$ and hence $Cov(X,Y)=\\sigma_x^2=\\sigma_y^2=Var(X)$\nwhich implies $X=Y$ or $P(X=Y)=1$\n\nNote, we implicitly used the requirement of the variance being finite[This is what is implied by the function being squared integrable: \n$\\int |f(X)|^2dx < \\infty$\n",
+    "created" : 1485849818737.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3863544270",
+    "id" : "8ABB68A7",
+    "lastKnownWriteTime" : 1485849894,
+    "last_content_update" : 1485849894729,
+    "path" : "~/github/usc-math-505A-screening-solutions/2013_Spring.Rmd",
+    "project_path" : "2013_Spring.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

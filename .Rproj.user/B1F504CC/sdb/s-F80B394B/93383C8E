@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "# MATH-505A Screening Solutions {-}\n\nSolutions to MATH-505A screening exams are provided. They are indexed by (year, semester). ",
+    "created" : 1485845125769.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "8468183",
+    "id" : "93383C8E",
+    "lastKnownWriteTime" : 1485849467,
+    "last_content_update" : 1485849467,
+    "path" : "~/github/usc-math-505A-screening-solutions/index.Rmd",
+    "project_path" : "index.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
