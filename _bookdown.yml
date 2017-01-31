@@ -1,0 +1,14 @@
+--- 
+title: "MATH-505A Screening Solutions"
+book_filename: "math505A-screening-solutions"
+author: "Saket Choudhary"
+date: "`r Sys.Date()`"
+site: "bookdown::bookdown_site"
+output:
+  bookdown::gitbook: default
+  bookdown::pdf_book:
+    keep_tex: yes
+documentclass: book
+link-citations: yes
+edit: https://github.com/saketkc/usc-math-505A-screening-solutions/edit/master/%s
+---
