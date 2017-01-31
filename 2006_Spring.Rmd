@@ -76,20 +76,20 @@ Substitute in (skipping/TODO)
 $Var(R_n) = ER_n^2-(ER_n)^2$
 
 ## Problem 2
-$X = \{\}X_1,X_2 \dots, X_n)$ and $Y=\sum_{i=1}^{N}c_iX_i$
+$X = \{X_1,X_2 \dots, X_n \}$ and $Y=\sum_{i=1}^{N}c_iX_i$
 
 To determine :
 - Distribution of Y
 
-iWe use characteristic functions
+We use characteristic functions
 
 Using the [characteristic function of a normal RV](https://en.wikipedia.org/wiki/Normal_distribution#Fourier_transform_and_characteristic_function):
 
-$\phi_X(t) = E[e^{itX}] = e^{-it\mu- \frac{1}{2}\sigma^2t^2} = $
+$\phi_X(t) = E[e^{itX}] = e^{-it\mu- \frac{1}{2}\sigma^2t^2}$
 
 For multivariate case:
 
-$\phi_X(\bf{t}) = E[e^{i\bf{t^T}X}] = e^{-i\bf{t^T}\mu- \frac{1}{2}\bf{t^T}\sum^2 \bf{t}} = $
+$\phi_X(\bf{t}) = E[e^{i\bf{t^T}X}] = e^{-i\bf{t^T}\mu- \frac{1}{2}\bf{t^T}\sum^2 \bf{t}}$
 
 
 Now, $Y=c^TX$ where $c=[c_1,c_2 \dots c_n]$ ($Y=\sum_{i=1}^{N}c_iX_i$)
