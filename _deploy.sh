@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -e
+set -eox
 
 [ -z "${GITHUB_PAT}" ] && exit 0
 [ "${TRAVIS_BRANCH}" != "master" ] && exit 0
