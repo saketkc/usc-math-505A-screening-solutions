@@ -1,0 +1,20 @@
+# 2017-Spring
+
+## Paper
+
+## Problem 1
+
+Let the three points be $(x_1,y_1); (x_2,y_2); (x_3,y_3)$
+Expected area of the rectangle with sides parallel to the coordinate axes is:
+$E[\big(\max{(x_1,x_2,x_3)}-\min{(x_1,x_2,x_3)}\big)\big(\max{(y_1,y_2,y_3)}-\min{(y_1,y_2,y_3)}\big)]$ where $x_i ~ U(0,1)$, $y_i ~ U(0,1)$ and $x_i, y_i$ are independent.
+
+Thus, expected area can be simplified to $E[\big(\max{(x_1,x_2,x_3)}-\min{(x_1,x_2,x_3)}\big)]^2$ 
+
+Let $\max{(x_1,x_2,x_3)$ be represents as $x_{(1)}$ and $\min{(x_1,x_2,x_3)$ as $x_{(3)}$
+Then $P_{X_{(1)}}(X_{(1)} < x) = P(X_{1}<x)P(X_{2}<x)P(X_{3}<x) = x^3  \implies E[X_{(1)}]=\frac{3}{4}$
+
+Similarly,
+
+$P_{X_{(3)}}(X_{(3)} < x) = 1-(1-x)^3 \implies P_{X_{(3)}}(X_{(3)} = x) = 3(1-x)^2 \implies E[X_{(3)}]=\frac{1}{4}$
+
+Thus, expected area = $(3/4-1/4)^2= 1/16$
