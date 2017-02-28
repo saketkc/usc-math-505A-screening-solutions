@@ -18,3 +18,84 @@ Similarly,
 $P_{X_{(3)}}(X_{(3)} < x) = 1-(1-x)^3 \implies P_{X_{(3)}}(X_{(3)} = x) = 3(1-x)^2 \implies E[X_{(3)}]=\frac{1}{4}$
 
 Thus, expected area = $(3/4-1/4)^2= 1/16$
+
+## Problem 2
+
+$f(x,y) g(\sqrt{x^2+y^2})$ Consider the transformation:
+
+$$
+\begin{align*}
+x &= r \cos(\theta)\\
+y &= r \sin(\theta)
+\end{align*}
+$$
+
+Then $f(r \cos(\theta), r \sin(\theta)) = g(r)$
+
+Reverse tranformation gives:
+$$
+\begin{align*}
+Z &= X/Y = \tan(\theta)\\
+r^2 &= y^2\sec^2(\theta)
+\end{align*}
+$$
+
+Since $f(r, \theta) = g(r)$ is independnet of $\theta$, $\theta ~ U$. Let $\theta ~ U(0,2\pi)$
+
+Now, $\theta = \tan^{-1}((Z)$
+
+$f_Z(z) = f_\theta(\tan^{-1}(z)) |\frac{\partial \theta}{\partial z}|+ f_\theta(\pi+\tan^{-1}(z))  |\frac{\partial \theta}{\partial z}| = \frac{1}{2\pi}$
+
+$\frac{\partial \theta}{\partial z} = 1/sec^2(\theta) = \frac{1}{z^2+1}$
+
+Thus, $f_Z(z) = \frac{2}{2\pi} \frac{1}{1+z^2} = \frac{1}{\pi(z^2+1)}
+
+## Problem 3
+
+## Part a
+
+$E[X_{n+1}^r|X_n] = \int_0^{cx_n} x^r \frac{1}{cx_n} dx = \frac{(cx_n)^r}{r+1}$
+
+## Part b
+
+For $r=1$:
+
+$E[X_{n+1}|X_n]  = \frac{cx_n}{2}$
+
+$EX_{n+1}= E[E[X_{n+1}|X_n] ]= \frac{cEX_n}{2} $
+Thus $\frac{EX_{n+1}}{EX_n} \times \frac{EX_{n}}{EX_{n-1}} \times \dots \frac{EX_{2}}{EX_1} = \frac{c}{2}^n \rightarrow 0 $ as $n \rightarrow \infty$ as \frac{c}{2} < 1$
+
+For $r=2$:
+
+$EX_{n+1}^2 = \frac{c^2EX_n^2}{3} $
+
+$\frac{EX_{n+1}^2}{EX_n^2} \times \frac{EX_{n}^2}{EX_{n-1}^2} \times \dots \frac{EX_{2}^2}{EX_1^2} = \frac{c^2}{3}^n \rightarrow \infty $ as $n \rightarrow \infty$
+
+## Part c
+
+### ToDO
+
+
+## Problem 4
+
+### Part a
+
+All $n$ boys in single block $\implies$ rreat them as one unit. Now for $m$ girls there are $m+1$ spots where we can put this one 'unit' in $m+1$ ways while the girls can be arranged in $m!$ ways and among the unit the boys can be arranged in $n!$ ways.
+
+Hence, the required probability: $\frac{(m+1)n!m!}{(n+m)!}$
+
+### Part b
+For $n>m$ the probability is zero,
+
+If $n\leq m$ we arrange the girls first leaving $m+1$ spaces for $n$ boys which can be filled in ${m+1 \choose n} \times n!$ and the girls can be arranged in $m!$ ways
+
+Required probability: $\frac{{m+1 \choose n}m!n!}{(n+m)!}$
+
+### Part c
+
+Define: $I_i=1$ if $(i-1,i,i+1)=(g,b,g)$ and $0$ otherwise.
+
+Then $EW = E\sum_{i=1}^{n+m-2} I_i = (n+m-2) EI_1 = (n+m-2)P(I_1=1) = (n+m-2) \frac{n(m)(m-1)}{(n+m)!}$
+
+
+
